@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-body {
+    border: 10px solid black;
+    border-radius: 10px;
+    background-image: url(imgs/web_back.jpg);
+    background-size: contain;
+    background-repeat:repeat-y;
+
+}
+
+.centered {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px 15px;
+    height: 450px;
+    width: 400px;
+}
+
+.projects {
+
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: bisque;
+    font-weight: 100;
+    font-size: 15px;
+    font-family: Geneva;
+    line-height: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    opacity: 75%;
+
+}
+
+.aboutme {
+
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: bisque;
+    font-weight: 100;
+    font-size: 15px;
+    font-family: Geneva;
+    line-height: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    opacity: 75%;
+}
+
+.hobbs {
+
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: bisque;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    opacity: 75%;
+}
+
+.small-text {
+
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: silver;
+    font-size: 15px;
+    border-width: 50%;
+    opacity: 90%;
+}
+
+.large-text {
+
+    border: 5px solid darkslategray;
+    background-color: royalblue;
+    border-width: 50%;
+    border-radius: 10px;
+    font-family: cursive;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70;
+    opacity: 75%;
+
+}
+.linkage {
+
+    color: darkred;
+
+}
+
+.linkage:visited {
+
+    color: crimson;
+}
+
+h1 {
+    color: rebeccapurple;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    opacity: 75%;
+}
+
+h3 {
+
+    color: azure;
+    font-family: Geneva, cursive;
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    opacity: 75%;
+    min-width: 400px;
+    max-width: 1200px;
+
+}
+
+p {
+    color: purple;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    line-height: 22px;
+    padding: 12px;
+    min-width: 400px;
+    max-width: 1200px;
+}
+
+p:hover{
+    background-color: darkgray;
+}
+
+ol {
+
+    color: black;
+    list-style: lower-roman;
+    font-weight: 100;
+    font-size: 20px;
+    font-family: Geneva;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 70%;
+    
+
+}
+
+ol:hover {
+    background-color: darkcyan;
+}
+
+ul {
+
+    color: green;
+    list-style: square;
+    font-weight: 100;
+    font-size: 15px;
+    font-family: Geneva;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+
+
+
+}
+
+ul:hover {
+    background-color: darkcyan;
+}
+
+.contact {
+    background-color: royalblue;
+    border: 2px dotted black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.contact td {
+
+    color: black;
+    font-size: 11px;
+    font-weight: 100;
+    font-family: Geneva;
+    line-height: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%
+}
