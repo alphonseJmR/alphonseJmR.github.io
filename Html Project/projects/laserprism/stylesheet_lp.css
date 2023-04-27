@@ -1,0 +1,32 @@
+.main-body {
+
+    border: 10px dotted black;
+    background-color: darkviolet;
+}
+
+#text {
+
+    border: 5px solid black;
+    background-color: lightseagreen;
+}
+
+#project-text {
+
+    color: firebrick;
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#project-text:hover {
+
+    color: silver;
+    background-color: olive;
+}
+
+#intro-text {
+
+    color: firebrick;
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}

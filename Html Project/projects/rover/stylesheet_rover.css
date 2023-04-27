@@ -1,0 +1,105 @@
+.main-body {
+    background-image: url(imgs/astro.jpg);
+}
+
+.large-text {
+
+    color: silver;
+    font-size: 50px;
+    font-family: Courier, cursive;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.large-text:hover {
+
+    color: white;
+    background-color: black;
+}
+
+.medium-text {
+
+    color: blanchedalmond;
+    font-size: 30px;
+    font-family: Courier, cursive;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 100%;
+}
+
+.normal-text {
+
+    color: Azure;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 20px;
+    font-family: Courier, cursive;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.normal-text:hover {
+
+
+    color: white;
+    background-color: black;
+}
+
+#top-page {
+
+    background-color: orangered;
+    opacity: 55%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#top-page:hover {
+
+    opacity: 15%;
+}
+
+
+.tableone {
+
+    opacity: 75%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.tableone:hover {
+
+    background-color: lightblue;
+    opacity: 100%;
+}
+
+.link{
+
+    color: limegreen;
+    font-size: 25px;
+}
+
+.link:visited {
+    color: darkgreen;
+}
+img {
+
+    opacity: 1 !important;
+}

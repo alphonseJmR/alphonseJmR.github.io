@@ -1,0 +1,16 @@
+.main-body {
+
+    background-color: burlywood;
+}
+#page-intro {
+
+    color: darkgoldenrod;
+    font-size: 60px;
+    border: 2px dotted greenyellow;
+}
+#intro-text{
+
+    color: brown;
+    font-size: 35px;
+    border: 2px dotted green;
+}
