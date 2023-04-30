@@ -1,20 +1,27 @@
 .main-body {
 
-    border: 10px dotted black;
-    background-color: darkviolet;
+    border: 10px solid maroon;
+    background-image: url("https://img.freepik.com/premium-vector/red-laser-beam-light-effect-black-background_8829-2492.jpg");
+    border-radius: 10px;
 }
 
 #text {
 
     border: 5px solid black;
-    background-color: lightseagreen;
+    background-color: darkred;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 20px;
+    opacity: 75%;
 }
 
 #project-text {
 
-    color: firebrick;
+    color: azure;
     font-size: 60px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia;
 }
 
 #project-text:hover {
@@ -25,8 +32,39 @@
 
 #intro-text {
 
-    color: firebrick;
+    color: black;
     font-size: 45px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia;
 
+}
+
+.tableone {
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 20px;
+}
+
+.enlarge:hover {
+
+    height: 95%;
+    width: 85%;
+}
+
+.normal-text {
+
+    color: azure;
+    border: 5px solid black;
+    background-color: firebrick;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 20px;
+}
+
+.link {
+    color: antiquewhite;
 }
