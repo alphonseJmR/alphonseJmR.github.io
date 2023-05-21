@@ -1,101 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title >Jason M Reitz Portfolio</title>
-    <link href="style_sheet_main.css" rel="stylesheet">
-</head>
-  <body class="main-body">
-    <div id="top-page">
-    <h1 id="port_top_page_display">Alphonse M Reitz:  Portfolio</h1>
-    <a href="#About Me"><img src="./imgs/profile.jpg" alt="Handsome Mf'er" class="centered"></a>
-    <br>
-    <h4 class="normal-text"><strong>Photo</strong>:  Jason M Reitz (<a href="https://www.twitter.com/AlphonseJReitz" target="_blank" title="Tweeting!">Alphonse</a>)</h4>
-    <br>
-      <h2 class="large-text" >Projects</h2>
-        <ol class="projects">
-           <li><a href="./projects/shotglass/shotglass.html" target="_blank"class="linkage" title="Shot Glass Project">Shot Glass Light Blast</a></li>
-            <li><a href="./projects/millcount/millioncounter.html" target="_blank"class="linkage" title="One Million Second Project">Million Counter</a></li>
-            <li><a href="./projects/laserprism/laserprism.html" target="_blank"class="linkage" title="Learning about the RP2040 microcontroller">Laser Prism Desktoy</a></li>
-            <li><a href="./projects/rover/rover.html" target="_blank" class="linkage" title="Large Rover Build">Large Rover Project</a></li>
-            <li>3D Print Projects</li>
-            
-        </ol>
-      <div id="About Me">
-      <h2  class="large-text" id="about">About Me:</h2>
-        <ul class="aboutme">
-
-            <li><a href="#General" class="linkage">General Information</a></li>
-            <li><a href="#Hobbies" class="linkage">Hobbies / Interests</a></li>
-            <li><a href="#Family" class="linkage">Family</a></li>
-            <li><a href="#Education" class="linkage">Education</li>
-            <li>More Information</li>
-
+    <head>
+        <title>Alphonse Portfolio</title>
+        <meta name="viewport" content="width=device-width, initital-scale=1">
+        <link href="stylesheet.css" rel="stylesheet">
+    </head>
+    <div class="nav-container">
+        <div class="navigation text">
+        <ul class="navigation">
+            <li class="nav-list"><a href="#Million">Million Incrementer</a></li>
+            <li class="nav-list"><a href="#Shots">Shot Glasses</a></li>
+            <li class="nav-list"><a href="#Prism">Laser Prism</a></li>
+            <li class="nav-list"><a href="#Rover">Rover</a></li>
         </ul>
-    </div>
-        <div id="General">
-
-            <h2 class="large-text" id="general">General Information</h2>
-              <p class="small-text">
-                    My name is Jason Reitz, although as you can see, I also go by Alphonse.
-                    This was from my time in French class in <a href="https://www.amerysd.k12.wi.us/" title="Class 2011" target="_blank" class="linkage">high school</a> and it's just stuck with me. <br>
-                        Twenty-nine years old, nearly thirty.<br>
-                        Married:  Eight years to beautiful <a href="https://www.twitter.com/cassiereitz22" target="_blank" title="Cassandra's Tweetables" class="linkage">Cassandra</a><br>
-                        Stay-at-home parent:  Kids and I all learn all the time.<br>
-                        Living in:  Durand, Wisconsin.<br>
-                </p>
         </div>
-        <div id="Hobbies">
-            <h2 class="large-text" id="hobbies">Hobbies / Interests</h2>
-            <p class="small-text">I have a few main interests running at the moment.<br>
-                I had a tiny amount of electrical knowledge from a class during my stint at <a href="https://www.uti.edu/" target="_blank" class="linkage" title="Universal Technical Institute">Universal Techinal Institute</a>.<br>
-                    As for computer sciences, I had played around with computers during high school, so I had a base point.  
-                      My real learning when I was gifted this <a href="http://instrumentacion.qi.fcen.uba.ar/libro/Scherz.pdf" target="_blank" class="linkage" title="Practical Electronics for Inventors">book</a>.
-                      I started reading and putting what I was learning to the test every night.  I had started with analog circuits, which are yet to be understood.
+        </div>
+    <div class="header-container">
+    <h1 class="text"><a href="https://twitter.com/AlphonseJReitz">Alphonse Portfolio</a></h1>
+    <img src="imgs/profile.jpg" id="profilepic" alt="Site Designer Jason Reitz">
+    </div>
 
-            <ol class="hobbs">
-                <li><a href="https://en.wikipedia.org/wiki/Electrical_engineering" class="linkage" target="_blank" title="What is electrical engineering?">Electrical Engineering</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Computer_science" class="linkage" target="_blank" title="What are the computer sciences?">Computer Science</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/3D_printing" class="linkage" target="_blank" title="What is 3D Printing?">3D Printing</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Computer_programming" class="linkage" target="_blank" title="What is programming?">Programming</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Pyrography" class="linkage" target="_blank" title="What is Pyrography?">Pyrography</a></li>
-
-            </ol>
-          </div>
-    </p>
-
-        <div id="Family">
-          <h2 class="large-text" id="family">Family</h2>
-        <p class="small-text">I have a wonderful family consisting on my wife Cassandra, my daughter Brynn, son's Devereaux & Sterling, and my youngest Zeyta.<br>
-                I also have my mother Carol, brother Adam, brother-in-law Joseph (Posey), sister-in-law Taylor, and niece Marlee.
+    <div class="project-container million-project">
+        <h3 id="Million">Million Incrementer</h3>
+        <img src="projects/millcount/imgs/microcontroller.jpg" class="image-container" id="img2" alt="Prototype">
+        <p class="text radi" id="prototypetext">Seen left is a RP2040 Rasperry Pi Pico microcontroller gently placed inside of a well made 3D printed housing.<br><br></p>
+        <p class="text radi" id="microcontrollertext">Seen right is a later attempt with smaller components.  Without using individual seven segment displays, I opted towards using two conjoined displays, as the amount of wiring and outputs needed to operate was reduced.</p>
+        <img src="projects/millcount/imgs/colorwires.jpg" class="image-container" id="img1" alt="Colorful Wire Mess" >
+        <p class="text radi" id="displayimgtext">Seen right is an early design test during multiplex learning.  I was also introduced to using inverter IC's</p>
+        <img src="projects/millcount/imgs/displays.jpg" class="image-container" id="img3" alt="Displays" >
+        <img src="projects/millcount/imgs/finished.jpeg" class="image-container" id="img4" alt="Finished Design" >
+        <p class="text radi" id="finishedtext">Seen left is the finished design and working product.  Printing will be smoothed out with better equipment.
+            <br>
+            <br>
+            At time of writing this, but not since finishing, it's been working for 398,817 seconds.
         </p>
-        </div>
-        </div>
-        <div class="contact">
-          <h2 class="contact">Contact Information</h2>
-        <p class="small-text">Easiest Contact Information.<br>
-          <table class="contact">
-            <tr></tr>
-            <tbody>               
-              <tr>
-                <td><strong>E-mail Address:</strong><br></td>
-                <td><strong>Facebook Message:</strong></td>
-                <td><strong>Twitter DM</strong></td>
-                <td><strong>Discord:</strong></td>
-                </tr>
-                <tr>
-                    <td>alphonsejason18@gmail.com</td>
-                    <td><a href="https://www.facebook.com/jason.reitz.37" target="_blank" class="linkage" title="I'll hear the ding!"><br>Message Me</a></td>
-                    <td><a href="https://www.twitter.com/AlphonseJReitz" target="_blank" title="Dm Me" class="linkage" title="Frictionless Slide!">DM Me</a></td>
-                    <td><a href="http://www.discordapp.com/users/AlphonseJR#3763" target="_blank" class="linkage" title="Chaotic?">Send A chord?</a></td>
-                </tr>
-          </tbody>
-        </table>
-       </p>
     </div>
-	<div
-  </body>
-<footer class="foot">
-</footer>
+    <div class="project-container shotglasses">
+        <h3 id="Shots">Shot Glasses</h3>
+        <img src="projects/shotglass/imgs/platforms1.jpg" class="image-container" id="img2-1" alt="Platforms">
+        <p class="text radi" id="earlyplatformtext">Seen left are an early attempt at routing the wires to the platforms that hold the shot glasses.</p>
 
+    </div>
+    <div class="project-container">
+        <h3 id="Prism">Laser Prism</h3>
+    </div>
+    <div class="project-container">
+        <h3 id="Rover">Rover</h3>
+    </div>
+    </div>
 
 </html>
