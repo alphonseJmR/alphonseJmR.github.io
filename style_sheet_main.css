@@ -39,6 +39,12 @@ body{
     z-index: 80;
 }
 
+#rectangle{
+    width:200px;
+    height:100px;
+    background:blue;
+}
+
 
 .text {
     color: #ffe066;
